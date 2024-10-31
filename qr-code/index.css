@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Outfit";
+  src: url(/public/font/Outfit-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(/public/font/Outfit-Bold.ttf);
+  font-weight: bold;
+}
+
+:root {
+  --color-slate-300: #d5e1ef;
+  --color-slate-500: #68778d;
+  --color-slate-900: #1f314f;
+  --color-white: #ffffff;
+
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+body {
+  background-color: var(--color-slate-300);
+  margin: 0;
+  padding: 0;
+}
+
+.font-bold {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  color: var(--color-slate-900);
+}
+
+.container {
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--color-white);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 156.5px 27.5px;
+}
+
+.card-body {
+  padding: 16px;
+  text-align: center;
+}
+
+.card-header img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card-content p {
+  color: var(--color-slate-500);
+}
+
+@media screen and (min-width: 375px) {
+  .card {
+    width: 320px;
+    height: 499px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-content {
+    padding: 0 16px;
+  }
+}
