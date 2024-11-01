@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Figtree";
-  src: url(/public/font/Figtree-SemiBold.ttf);
+  src: url(/public/fonts/Figtree-SemiBold.ttf);
 }
 
 @font-face {
   font-family: "Figtree";
-  src: url(/public/font/Figtree-ExtraBold.ttf);
+  src: url(/public/fonts/Figtree-ExtraBold.ttf);
   font-weight: bold;
 }
 
