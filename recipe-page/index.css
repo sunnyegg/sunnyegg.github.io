@@ -135,6 +135,7 @@ article li::marker {
 .recipe-nutrition table {
   border-collapse: collapse;
   width: 100%;
+  text-align: center;
 }
 
 .recipe-nutrition tr {
