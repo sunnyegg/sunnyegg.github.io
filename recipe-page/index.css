@@ -48,7 +48,7 @@ section {
   padding: 0 2rem;
 }
 
-article h1 {
+article h2 {
   margin: 0;
   font-family: "Young Serif", sans-serif;
   font-size: 1.5rem;
@@ -80,7 +80,7 @@ article li::marker {
   padding-top: 1rem;
 }
 
-.recipe-summary h1 {
+.recipe-summary h2 {
   margin: 0;
   font-size: 2rem;
   line-height: 1.2;
@@ -98,7 +98,7 @@ article li::marker {
   background-color: var(--color-rose-50);
 }
 
-.recipe-preparation-time h1 {
+.recipe-preparation-time h2 {
   margin: 0.6rem 0;
   font-family: "Outfit", sans-serif;
   font-size: 1.2rem;
@@ -135,7 +135,7 @@ article li::marker {
 .recipe-nutrition table {
   border-collapse: collapse;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 .recipe-nutrition tr {
@@ -153,6 +153,7 @@ td {
 
 .recipe-nutrition th {
   font-weight: 400;
+  padding-left: 2rem;
 }
 
 .recipe-nutrition td {
@@ -165,11 +166,11 @@ td {
     display: flex;
     justify-content: center;
     background-color: var(--color-stone-100);
-    padding: 4rem;
+    padding: 8rem 2rem;
   }
 
   main {
-    width: 600px;
+    width: 800px;
     height: auto;
     background-color: var(--color-white);
     border-radius: 20px;
