@@ -106,7 +106,7 @@ body {
 @media screen and (min-width: 375px) {
   .card {
     width: 320px;
-    height: 499px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
   }
